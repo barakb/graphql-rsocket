@@ -1,5 +1,9 @@
+[![build](https://github.com/barakb/graphql-rsocket/actions/workflows/build.yml/badge.svg)](https://github.com/barakb/graphql-rsocket/actions/workflows/build.yml)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
-### Example of Graph
+
+### Example of [GraphQL](https://graphql.org/) over [RSocket](https://rsocket.io/)
+
 * http://localhost:8080/actuator
 * http://localhost:8080/graphiql
 * http://localhost:8080/graphql
