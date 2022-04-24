@@ -12,6 +12,8 @@
 * https://github.com/spring-projects/spring-graphql
 * https://spring.io/blog/2022/04/20/spring-for-graphql-1-0-rc1-released
 
+Download the [RSocket](https://github.com/making/rsc) client ([rsc.jar](https://github.com/making/rsc/releases))
+
 ```shell
 java -jar rsc.jar --request --route=graphql --dataMimeType="application/graphql+json" --data='{"query":"{\n  greeting \n}"}' --debug ws://localhost:8080/rsocket
 java -jar rsc.jar --request --route=graphql --dataMimeType="application/graphql+json" --data='{"query":"{\n  callGreeting \n}"}' --debug ws://localhost:8080/rsocket
