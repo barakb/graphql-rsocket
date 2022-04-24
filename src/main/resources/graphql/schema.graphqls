@@ -1,0 +1,9 @@
+type Query {
+    greeting: String
+    callGreeting: String
+    callIntegers: [Int]
+}
+
+type Subscription {
+    integers : Int
+}
